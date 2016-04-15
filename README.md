@@ -6,6 +6,7 @@ Its a simple example of file movement based on file age with the use of crontab 
 
 ## Installation
 `Linux`
+
 1. Open directory you are going to be working in and `git clone git@github.com:Fiercedark1/seemless_archiving.git`
 
 2. Once the clone is complete run the `./install.sh` script as root
