@@ -1,7 +1,3 @@
-I used " */1 * * * * " /path/to/script/ within crontab to establish a quick test.
-Then after success I changed crontab to "0 * * * *" /path/to/script so to have it run on the hour every hour.
-<snippet>
-  <content><![CDATA[
 # Seamless File Movement
 Description: The repo contains python 2.7 scripts that move files that are 3 hours or older. There are two directories here the 3hr_limit/ which holds the original files and the tmp_arch/ directory that acts as our tar archive.
 The first script (time_limit.py) compresses and moves files from 3hr_limit/ that are 3 hours or older to the tmp_arch/. The second script (untar_revive.py) is a revive script that decompresses the tar files from tmp_arch/ and moves them back to 3hr_limit/.
@@ -35,13 +31,13 @@ It will open up a text editor and it is in here line per line that you enter the
 The syntax for crontab is ` * * * * * /path/to/script`
 Each * meaning a different area of time. I've added two for you already. Just comment one and uncomment the other.
 
-| field   |   meaning    |   allowed values |
-|---------|--------------|------------------|
-|    1    |    minute    |       0-59       |
-|    2    |    hour      |       0-23       |
-|    3    | day of month |        1-31      |
-|    4    |    month     |        1-12      |
-|    5    |  day of week |   0-7 (0 | 7=Sun)|
+              | field   |   meaning    |   allowed values |
+              |---------|--------------|------------------|
+              |    1    |    minute    |       0-59       |
+              |    2    |    hour      |       0-23       |
+              |    3    | day of month |        1-31      |
+              |    4    |    month     |        1-12      |
+              |    5    |  day of week |   0-7 (0 | 7=Sun)|
 
 ## Contributing
 1. Fork it!
