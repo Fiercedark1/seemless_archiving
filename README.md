@@ -35,13 +35,13 @@ It will open up a text editor and it is in here line per line that you enter the
 The syntax for crontab is ` * * * * * /path/to/script`
 Each * meaning a different area of time. I've added two for you already. Just comment one and uncomment the other.
 
- field      meaning       allowed values
--------   ------------   ----------------
-    1      minute         0-59
-    2      hour           0-23
-    3      day of month   1-31
-    4      month          1-12
-    5      day of week    0-7 (0 or 7 is Sun)
+ - field      meaning       allowed values
+ - -------   ------------   ----------------
+  -  1      minute         0-59
+  -  2      hour           0-23
+  -  3      day of month   1-31
+  -  4      month          1-12
+  -  5      day of week    0-7 (0 or 7 is Sun)
 
 ## Contributing
 1. Fork it!
